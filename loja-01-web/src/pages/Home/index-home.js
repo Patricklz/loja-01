@@ -18,9 +18,9 @@ function Home(props) {
     }, []);
 
 
-    const _addProduct = (product) => {
-        const { addToCart } = props;
-        addToCart(product);
+    const _addProduct = (id) => {
+        const { addToCartRequest } = props;
+        addToCartRequest(id);
     };
 
     return (
@@ -31,7 +31,7 @@ function Home(props) {
                     <strong>{product.title}</strong>
                     <span>{formatPrice(product.price)}</span>
 
-                    <button type="button" onClick={() => { _addProduct(product) }}>
+                    <button type="button" onClick={() => { _addProduct(product.id) }}>
                         <div>
                             <MdShoppingCart size={16} color="#FFF" /> {amount[product.id] || 0}
                         </div>
