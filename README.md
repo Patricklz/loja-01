@@ -77,12 +77,11 @@ $ yarn install
 $ yarn start
 ```
 
-## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/react-rocketshoes/blob/master/LICENSE) for more information.
+
 
 ---
 
-Made with ♥ by Luke Morales :wave: [Get in touch!](https://www.linkedin.com/in/lukemorales/)
+Made by Patrick Luiz :wave: [Get in touch!](https://www.linkedin.com/in/patrickluiz/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
